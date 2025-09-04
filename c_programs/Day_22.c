@@ -1,13 +1,21 @@
-#include<stdio.h>
-void main(){
-  int a=3,b=2,c;
-  a=a==b==0;
+int main(){ 
+ while(sizeof(0)) 
+ { 
+  printf("Loop "); 
+  if(sizeof(0)) 
+  break; 
+  else  
+  continue;  
+ } 
+ return 0; 
+} 
 
-switch(1){
-case 1:
-break;
-default:
-break;
+
+// 2nd program
+#include<stdio.h> 
+int main() 
+{ 
+ int size = sizeof(volatile) + sizeof(const); 
+ printf("%d",++size); 
+ return 0; 
 }
-c= sizeof(++a);
-printf("%d",a);
